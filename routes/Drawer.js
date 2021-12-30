@@ -5,14 +5,18 @@ import HomeStack from './HomeStack'
 import AboutStack from './AboutStack'
 
 
-const RootNavigation = createDrawerNavigator({
+const RootDrawerNavigator = createDrawerNavigator({
     Home:{
         screen: HomeStack
     },
     About:{
         screen: AboutStack
     }
+},{
+    defaultNavigationOptions:{
+        headerStyle:{backgroundColor: 'red'}
+    }
 })
 
 
-export default createAppContainer(RootNavigation); 
+export default createAppContainer(RootDrawerNavigator); 

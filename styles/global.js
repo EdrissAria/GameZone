@@ -5,7 +5,6 @@ export const globalStyle = StyleSheet.create({
         padding: 30
     },
     titleText: {
-        fontFamily: 'roboto-bold',
         fontSize: 18
     }
 }) 
