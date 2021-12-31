@@ -14,7 +14,7 @@ const RootDrawerNavigator = createDrawerNavigator({
     }
 },{
     defaultNavigationOptions:{
-        headerStyle:{backgroundColor: 'red'}
+        
     }
 })
 

@@ -1,4 +1,4 @@
-import { createStackNavigator } from 'react-navigation-stack'
+import { createStackNavigator, HeaderBackground } from 'react-navigation-stack'
 import Home from '../screens/Home';
 import Review from '../screens/Review';
 import Header from '../shared/Header';
@@ -25,7 +25,7 @@ const screens = {
 const HomeStack = createStackNavigator(screens,{
     defaultNavigationOptions: {
         headerTintColor: '#333',
-        headerStyle: {backgroundColor: 'coral', height: 80}
+        headerStyle: {backgroundColor: 'violet'}
     }
 });
 
