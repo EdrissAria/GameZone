@@ -4,7 +4,6 @@ import { globalStyle } from '../styles/global'
 import { Formik } from 'formik'
 import * as yup from 'yup'
 
-
 export default function ReviewForm({ addReview }) {
 
     const reviewSchema = yup.object({

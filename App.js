@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react";
 import Home from "./screens/Home";
 import { global } from "./styles/global";
 import * as Font from 'expo-font'
-import {AppLoading} from 'expo'
 import Navigator from './routes/Drawer'
 
 export default function App() {

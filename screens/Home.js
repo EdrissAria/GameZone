@@ -60,7 +60,7 @@ export default function Home({ navigation }) {
 
 const styles = StyleSheet.create({
     modalContent: {
-
+        flex: 1,
     },
     modalButton: {
         alignSelf: 'center',
