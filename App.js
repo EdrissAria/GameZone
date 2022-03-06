@@ -11,7 +11,6 @@ export default function App() {
           'roboto-bold': require('./assets/fonts/Roboto-Bold.ttf')
         })
     }, []); 
-
     return (
       <Navigator />
     );
